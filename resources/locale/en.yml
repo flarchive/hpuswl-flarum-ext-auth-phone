@@ -1,0 +1,39 @@
+hamzone-auth-phone:
+  admin:
+    settings:
+      api_sms_ali_access_id: Aliyun accessKeyId
+      api_sms_ali_access_sec: Aliyun accessKeySecret
+      api_sms_ali_sign: Aliyun SMS sign
+      api_sms_ali_template_code: Aliyun template code
+      api_sms_ali_expire_second: SMS expire second(default:300s)
+  forum:
+    alerts:
+      limit: Before you verify your mobile number, we temporarily restricted your account's operation authority. 
+      already_linked: Mobile phone linked
+      already_used: Mobile phone already used
+      link_success: Link success
+      error: Error
+      wrong_num: Please enter the correct mobile phone number
+      code_exist: The verification code has been sent. Please operate in {time} minutes later
+      send_success: verification code sent success
+      toLink: Go to verify
+      unlink_success: Unlink success
+      code_null: Code required
+      code_expired: Code expired
+      code_invalid: Code invalid
+      phone_exist: Mobile number has been used
+    modals:
+      link:
+        title: Mobile SMS Auth
+        phone: Phone Number
+        code: Verification Code
+      unlink:
+        title: Mobile Unlink
+        confirm: Confirm
+        cancel: Cancel
+        no_providers: Your account permission will be restricted after unbinding
+    buttons:
+      link: Mobile SMS Auth
+      send: Send
+      unlink: Unlink Mobile Phone
+      submit: Submit
